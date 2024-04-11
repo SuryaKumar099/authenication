@@ -19,7 +19,7 @@ function Login() {
       email,
       password,
     };
-    axios.post('http://localhost:5006/login', data)
+    axios.post('https://authenication-backend.vercel.app/login', data)
     .then((res) => {
       console.log(res.data.token);
       localStorage.setItem('jwt-token', res.data.token);

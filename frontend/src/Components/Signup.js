@@ -20,7 +20,7 @@ function Signup() {
       confirmpassword
     }
     axios
-      .post('http://localhost:5006/signup', data)
+      .post('https://authenication-backend.vercel.app/signup', data)
       .then((res) => {
         console.log(res)
         navigate('/login')

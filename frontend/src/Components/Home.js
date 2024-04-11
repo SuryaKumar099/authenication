@@ -10,7 +10,7 @@ function Home() {
   let navigate = useNavigate()
 
   useEffect(() => {
-    axios.get('http://localhost:5006/home', {
+    axios.get('https://authenication-backend.vercel.app/home', {
       headers: {
         myToken: token
       }
