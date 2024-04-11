@@ -1,0 +1,9 @@
+
+Backend:
+
+first we  need to install the backend. 
+
+first install npm init -y it will  create a package.json file in your project folder
+then we can run `npm i express` this is node.js framework
+when we install the express by using route and serve
+
